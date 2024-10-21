@@ -1,4 +1,4 @@
-# Prueba técnica para Juniors y Trainees de React en Live Coding.
+# ⚛️ Prueba técnica para Juniors y Trainees de React en Live Coding.
 
 Esta aplicación esta pensada para reforzar mis conocimientos en **React**, consumiendo dos APIs y gestionando estados dependientes uno del otro. 
 
