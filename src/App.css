@@ -1,0 +1,103 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    color: #fff;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #2c2a2a;
+    border-radius: 25px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.catImg {
+    max-height: 300px;
+}
+
+.random-cat-img-container {
+    min-height: 300px;
+    min-width: 400px;
+    max-height: 300px;
+    position: relative;
+    text-align: center;
+}
+
+.Loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    min-width: 450px;
+    min-height: 300px;
+    max-width: 450px;
+    max-height: 300px;
+}
+
+.refresh-image-btn {
+    position: absolute;
+    right: 0;
+    min-height: 50px;
+    min-width: 50px;
+    width: min-content;
+    height: min-content;
+    background-color: #2a2a2a70;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 0 0 0 5px;
+}
+
+.refresh-png {
+    margin: 0;
+    min-height: 50px;
+    min-width: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    opacity: .7;
+    transition: transform 0.3s ease;
+}
+
+.refresh-image-btn:hover .refresh-png {
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.factos-options {
+    display: flex;
+}
+
+.facto-itm {
+    background-color: transparent;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    max-height: 50px;
+    min-height: auto;
+}
+
+.facto-itm:hover {
+    cursor: pointer;
+}
+
+.facto-input {
+    appearance: none;
+    outline: none;
+    max-height: 50px;
+    min-height: auto;
+    border: none;
+    border-bottom: solid 2px #fff;
+}
+
+.facto-input:hover {
+    cursor: text;
+}
