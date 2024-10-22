@@ -115,3 +115,71 @@ img {
     border-left: solid 2px #fff;
     border-right: solid 2px #fff;
 }
+
+/* Media query para pantallas móviles */
+@media (max-width: 600px) {
+    main {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .random-cat-img-container {
+        min-width: 100%;
+        min-height: 200px;
+        max-height: 200px;
+    }
+
+    img {
+        min-width: 100%;
+        min-height: 200px;
+        max-width: 90%;
+        max-height: 200px;
+    }
+
+    .refresh-image-btn {
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    .refresh-png {
+        min-width: 40px;
+        min-height: 40px;
+        max-width: 40px;
+        max-height: 40px;
+    }
+
+    .factos-options {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .facto-input {
+        font-size: 16px;
+        max-height: 40px;
+        max-width: 90%;
+    }
+
+    .facto-itm {
+        font-size: 16px;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .download-img {
+        max-width: 90%;
+    }
+}

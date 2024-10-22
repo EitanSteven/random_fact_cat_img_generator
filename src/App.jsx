@@ -26,6 +26,8 @@ export function App () {
     const { query } = Object.fromEntries(new window.FormData(e.target))
     refreshFact(query)
   }
+  const rootHtml = document.getElementById('root').outerHTML
+  console.log(rootHtml)
   return (
     <>
       <main>
@@ -40,7 +42,7 @@ export function App () {
         {fact && <p>{fact}</p>}
 
         <section className='factos-options'>
-          <button className='facto-itm' onClick={downloadImage}>⬇ Descargar</button>
+          <button className='facto-itm download-img' onClick={downloadImage}>⬇ Descargar</button>
           <form onSubmit={handleSubmit}>
             <input className='facto-itm facto-input' name='query' type='text' placeholder='Ingrese su furry facto...' />
             <button className='facto-itm'>🔍 Buscar Imagen</button>

@@ -19,7 +19,6 @@ export function useCatImage ({ fact }) {
         return res.json()
       })
       .then(data => {
-        console.log('Entrando al then y procesando res de API de Gatos')
         const catId = data._id
         setCatImg(catImgPrefix + '/cat/' + catId + '/says/' + firstFactWords + '?fontColor=orange&fontSize=70')
         return catImg
