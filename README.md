@@ -14,3 +14,5 @@ APIs: 🐱
 - Muestra una imagen de un gato con la primera palabra.
 
     - Imagen random: https://cataas.com/cat/says/hello
+
+Background usados en el CSS: [🖼 svgbackgrounds](https://www.svgbackgrounds.com)
